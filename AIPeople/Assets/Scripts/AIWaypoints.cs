@@ -9,19 +9,20 @@ using Random = UnityEngine.Random;
 
 public enum AIAction
 {
-    None, Idle, Eat, Sit
+    None, Idle, Eat, Sit, GoHome, Shopping, Farming, Fishing, WoodCutting
 }
 [Serializable]
 public class WayPointKnot
 {
     public bool isKnotSelected;
-    public int knotIndex;
+    // public int knotIndex;
     public AIAction aiAction;
 }
 
 #endregion
 
-public class AnimalWaypoints : MonoBehaviour
+[RequireComponent(typeof(SplineComponent))]
+public class AIWaypoints : MonoBehaviour
 {
     [SerializeField] private SplineContainer wayPoints;
     [SerializeField] public List<WayPointKnot> wayPointKnots;
@@ -35,7 +36,7 @@ public class AnimalWaypoints : MonoBehaviour
         var wayPointCount = wayPoints[0].Count;
         for (var i = 0; i < wayPointCount; i++)
         {
-            wayPointKnots.Add(new WayPointKnot() { knotIndex = i, aiAction = AIAction.None });
+            wayPointKnots.Add(new WayPointKnot() { /*knotIndex = i,*/ aiAction = AIAction.None });
         }
     }
 
@@ -78,22 +79,26 @@ public class AnimalWaypoints : MonoBehaviour
         for (var i = 0; i < wayPointKnots.Count; i++)
         {
             var defaultColor = GUI.color;
+            var style = new GUIStyle();
             if (i == selectedIndex)
             {
-                var style = new GUIStyle();
+                
                 style.normal.textColor = Color.red; // Set the text color
                 style.fontSize = 28;
                 // GUI.color = Color.red;
                 UnityEditor.Handles.Label(
                     (float3)wayPoints.transform.position + wayPoints[0][i].Position, 
-                    $"A:{ Enum.GetName(typeof(AIAction), wayPointKnots[i].aiAction)}", style
+                    $"{i}:{ Enum.GetName(typeof(AIAction), wayPointKnots[i].aiAction)}", style
                     );
                 // GUI.color = defaultColor;
                 continue;
             }
+            
+            style.normal.textColor = Color.blue; // Set the text color
+            style.fontSize = 16;
             UnityEditor.Handles.Label(
                 (float3)wayPoints.transform.position + wayPoints[0][i].Position, 
-                $"A:{ Enum.GetName(typeof(AIAction), wayPointKnots[i].aiAction)}");
+                $"{i}:{ Enum.GetName(typeof(AIAction), wayPointKnots[i].aiAction)}", style);
         }
         
     }
