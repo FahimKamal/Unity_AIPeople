@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.gemserk.selectionhistory": {
+      "version": "https://github.com/acoppes/unity-history-window.git#1.5.5",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "096abf1296a6c4339edfd506bd563a4102e30592"
+    },
     "com.unity.ai.navigation": {
       "version": "1.1.5",
       "depth": 0,

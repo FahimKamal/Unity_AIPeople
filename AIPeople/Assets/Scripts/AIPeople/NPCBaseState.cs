@@ -2,11 +2,11 @@ using UnityEngine;
 
 public abstract class NPCBaseState : MonoBehaviour
 {
-    public abstract void EnterState(AIPeopleStateManager state);
+    public abstract void EnterState(AIPeopleStateManager aiState);
     
-    public virtual void UpdateState(AIPeopleStateManager state) { }
+    public virtual void UpdateState(AIPeopleStateManager aiState) { }
 
-    public virtual void ExitState(AIPeopleStateManager state) { }
+    public virtual void ExitState(AIPeopleStateManager aiState) { }
 
-    public virtual void OnStateTriggerEnter(AIPeopleStateManager animal, Collider aiCollider) { }
+    public virtual void OnStateTriggerEnter(AIPeopleStateManager aiState, Collider aiCollider) { }
 }

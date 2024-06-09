@@ -5204,17 +5204,17 @@ MonoBehaviour:
   - isKnotSelected: 0
     aiAction: 0
   - isKnotSelected: 0
-    aiAction: 4
+    aiAction: 5
   - isKnotSelected: 0
     aiAction: 0
   - isKnotSelected: 0
     aiAction: 0
   - isKnotSelected: 0
-    aiAction: 6
+    aiAction: 5
   - isKnotSelected: 0
     aiAction: 0
   - isKnotSelected: 0
-    aiAction: 8
+    aiAction: 5
   - isKnotSelected: 0
     aiAction: 0
   - isKnotSelected: 0
@@ -10930,11 +10930,11 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 1.3
-  m_Speed: 3.5
+  m_Speed: 7
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 0
+  m_StoppingDistance: 0.3
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -11137,6 +11137,10 @@ GameObject:
   - component: {fileID: 543450651643469820}
   - component: {fileID: 5866666019855271302}
   - component: {fileID: 2056566809}
+  - component: {fileID: 5866666019855271305}
+  - component: {fileID: 5866666019855271304}
+  - component: {fileID: 5866666019855271303}
+  - component: {fileID: 5866666019855271306}
   m_Layer: 0
   m_Name: AIUncle
   m_TagString: Untagged
@@ -11791,7 +11795,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 3e148959565d933498d6fbc559829f03, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -11799,6 +11803,78 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5866666019855271303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147990234438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb8ac81a98578ef4fa75539454c11760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5866666019855271304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147990234438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c35c801134578664f8fe7a9f350cd4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idleAnimNames:
+  - Idle-1
+  - Idle-2
+  - Idle-3
+  maxStandTime: 5
+  minStandTime: 2
+--- !u!114 &5866666019855271305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147990234438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f49533bc67a627c4cbc2bfb6d10ff19a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 2056566809}
+  animator: {fileID: 5866666019855271302}
+  presentAIPeopleAction: 0
+  idleState: {fileID: 5866666019855271304}
+  walkingState: {fileID: 5866666019855271303}
+  shoppingState: {fileID: 0}
+  AIWaypoints: {fileID: 639446569}
+  selectedWayPointKnot:
+    isKnotSelected: 0
+    aiAction: 0
+  currentAnimName: Idle
+  showDebugLog: 1
+--- !u!114 &5866666019855271306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147990234438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccffb2ac7dee1d548938f4da2589d9f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shoppingAnimNames:
+  - Shopping-1
+  - Shopping-2
+  - Shopping-3
+  minShoppingTime: 40
+  maxShoppingTime: 40
 --- !u!4 &5901452233809907071
 Transform:
   m_ObjectHideFlags: 0
