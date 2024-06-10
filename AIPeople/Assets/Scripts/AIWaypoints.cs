@@ -9,7 +9,7 @@ using Random = UnityEngine.Random;
 
 public enum AIAction
 {
-    None, Idle, Eat, Sit, GoHome, Shopping, Farming, Fishing, WoodCutting
+    None, Idle, Eat, Sit, GoHome, Shopping, Fighting, Farming, Fishing, WoodCutting, 
 }
 [Serializable]
 public class WayPointKnot

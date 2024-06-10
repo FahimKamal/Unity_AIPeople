@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.gemserk.selectionhistory": "https://github.com/acoppes/unity-history-window.git#1.5.5",
+    "com.quickeye.utility": "https://github.com/ErnSur/QuickEye-Utility.git",
     "com.unity.ai.navigation": "1.1.5",
     "com.unity.collab-proxy": "2.3.1",
     "com.unity.ide.rider": "3.0.28",

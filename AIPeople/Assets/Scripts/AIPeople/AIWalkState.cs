@@ -33,6 +33,7 @@ public class AIWalkState : NPCBaseState
         var remainingDistance = Vector3.Distance(aiState.transform.position, _aiDestination);
         if (!(remainingDistance <= aiState.agent.stoppingDistance) ||
             aiState.presentAIPeopleAction != AIPeopleActions.Walking) return;
+        
         switch (_nextAIAction)
         {
             case AIAction.None:
@@ -46,6 +47,9 @@ public class AIWalkState : NPCBaseState
                 break;
             case AIAction.Farming:
                 aiState.SwitchState(aiState.idleState);
+                break;
+            case AIAction.Fighting:
+                aiState.SwitchState(aiState.fightingState);
                 break;
             case AIAction.Eat:
             case AIAction.Sit:

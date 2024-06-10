@@ -1,6 +1,4 @@
-using System.Collections;
 using System.Collections.Generic;
-using Unity.Mathematics;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -28,7 +26,6 @@ public class AIShoppingState : NPCBaseState
     public override void UpdateState(AIPeopleStateManager aiState)
     {
         _timer += Time.deltaTime;
-        aiState.DebugLog($"Time: {_timer}");
         if (_timer >= _timerStopDuration)
         {
             aiState.SwitchState(aiState.walkingState);
@@ -51,24 +48,6 @@ public class AIShoppingState : NPCBaseState
     /// Animation Event Method
     /// </summary>
     public void TalkingOver()
-    {
-        _aiPeopleStateManager.DebugLog("Animation switching");
-        _aiPeopleStateManager.DebugLog($"Now time: {_timer}");
-        if (_timer < _timerStopDuration)
-        {
-            _aiPeopleStateManager.PlayAnimation(GetRandomItem());
-        }
-    }
-    public void TalkingOver2()
-    {
-        _aiPeopleStateManager.DebugLog("Animation switching");
-        _aiPeopleStateManager.DebugLog($"Now time: {_timer}");
-        if (_timer < _timerStopDuration)
-        {
-            _aiPeopleStateManager.PlayAnimation(GetRandomItem());
-        }
-    }
-    public void TalkingOver3()
     {
         _aiPeopleStateManager.DebugLog("Animation switching");
         _aiPeopleStateManager.DebugLog($"Now time: {_timer}");

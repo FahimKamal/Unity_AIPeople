@@ -5,7 +5,7 @@ using UnityEngine.Serialization;
 
 public enum AIPeopleActions
 {
-    Idle, Walking, Shopping
+    Idle, Walking, Shopping, Fighting
 }
 
 public class AIPeopleStateManager : MonoBehaviour
@@ -23,6 +23,7 @@ public class AIPeopleStateManager : MonoBehaviour
     public AIIdleState idleState;
     public AIWalkState walkingState;
     public AIShoppingState shoppingState;
+    public AIFightingState fightingState;
 
     public AIWaypoints AIWaypoints;
     public WayPointKnot selectedWayPointKnot;
@@ -38,6 +39,7 @@ public class AIPeopleStateManager : MonoBehaviour
         idleState = GetComponent<AIIdleState>();
         walkingState = GetComponent<AIWalkState>();
         shoppingState = GetComponent<AIShoppingState>();
+        fightingState = GetComponent<AIFightingState>();
         
         // Initial State and entering the state.
         presentAIPeopleAction = AIPeopleActions.Walking;
