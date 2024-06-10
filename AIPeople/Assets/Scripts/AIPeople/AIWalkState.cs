@@ -5,6 +5,7 @@ public class AIWalkState : NPCBaseState
 {
     private AIAction _nextAIAction;
     private float3 _aiDestination;
+    private Quaternion  _rotation;
     public override void EnterState(AIPeopleStateManager aiState)
     {
         aiState.DebugLog("Entering walk State");
@@ -15,6 +16,7 @@ public class AIWalkState : NPCBaseState
             var destination = aiState.AIWaypoints.GetRandomWayPoint();
             _aiDestination = destination.positionValue;
             _nextAIAction = destination.action;
+            _rotation = destination.rotationValue;
 
             if (aiState.selectedWayPointKnot != null)
             {
@@ -43,6 +45,7 @@ public class AIWalkState : NPCBaseState
                 aiState.SwitchState(aiState.idleState);
                 break;
             case AIAction.Shopping:
+                transform.rotation = _rotation;
                 aiState.SwitchState(aiState.shoppingState);
                 break;
             case AIAction.Farming:

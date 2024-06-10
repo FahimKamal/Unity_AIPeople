@@ -544,7 +544,6 @@ GameObject:
   - component: {fileID: 5257720578000490140}
   - component: {fileID: 2723178366918576129}
   - component: {fileID: 386030529081709921}
-  - component: {fileID: 5260130724490193867}
   - component: {fileID: 9081324021440111124}
   - component: {fileID: 8793468065108613792}
   - component: {fileID: 5190817298370404227}
@@ -616,23 +615,7 @@ NavMeshAgent:
   m_Height: 6.6
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
---- !u!208 &5260130724490193867
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4357610629555533357}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 1.37, y: 3.7, z: 1.37}
-  m_MoveThreshold: 0.1
-  m_Carve: 1
-  m_CarveOnlyStationary: 0
-  m_Center: {x: 0, y: 3.31, z: 0}
-  m_TimeToStationary: 0.5
+  m_ObstacleAvoidanceType: 0
 --- !u!114 &9081324021440111124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -657,7 +640,7 @@ MonoBehaviour:
     isKnotSelected: 0
     aiAction: 0
   currentAnimName: Idle
-  showDebugLog: 1
+  showDebugLog: 0
 --- !u!114 &8793468065108613792
 MonoBehaviour:
   m_ObjectHideFlags: 0

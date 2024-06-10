@@ -15,3 +15,5 @@ MonoBehaviour:
   favoritesList:
   - reference: {fileID: 102900000, guid: 9e947dcc4077805458cc41a75846b0d7, type: 3}
   - reference: {fileID: 102900000, guid: 9197959cc7bbab843a72584c62ddcd14, type: 3}
+  - reference: {fileID: 102900000, guid: 859f1e753e25b7c43aa908754a861fd2, type: 3}
+  - reference: {fileID: 102900000, guid: ebcb46b323120354393f5aef14d48c46, type: 3}
