@@ -1362,6 +1362,7 @@ GameObject:
   - component: {fileID: 3866348109828109110}
   - component: {fileID: 6798875514862105190}
   - component: {fileID: 5337216808094226207}
+  - component: {fileID: 456227702529622363}
   m_Layer: 0
   m_Name: Worker
   m_TagString: Untagged
@@ -1444,6 +1445,29 @@ MonoBehaviour:
   animator: {fileID: 3866348109828109110}
   agent: {fileID: 6798875514862105190}
   currentAnimName: 
+--- !u!136 &456227702529622363
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9120881715212491117}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.45
+  m_Height: 7.11
+  m_Direction: 1
+  m_Center: {x: 0, y: 3.28, z: 0}
 --- !u!1 &9214133983239902598
 GameObject:
   m_ObjectHideFlags: 0

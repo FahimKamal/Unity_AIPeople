@@ -21,13 +21,21 @@ public class Worker : MonoBehaviour
 
     private void Update()
     {
-        if (_workerDestination == null)
-        {
-            return;
-            Debug.LogError("Worker destination is null");
-        }
-        var remainingDistance = Vector3.Distance(transform.position, _workerDestination.position);
-        if (remainingDistance <= agent.stoppingDistance)
+        // if (_workerDestination == null)
+        // {
+        //     return;
+        //     Debug.LogError("Worker destination is null");
+        // }
+        // var remainingDistance = Vector3.Distance(transform.position, _workerDestination.position);
+        // if (remainingDistance <= agent.stoppingDistance)
+        // {
+        //     Destroy(gameObject);
+        // }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.transform == _workerDestination)
         {
             Destroy(gameObject);
         }
