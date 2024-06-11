@@ -258,10 +258,6 @@ MonoBehaviour:
     - reference: {fileID: 0}
       sceneName: SampleScene
       scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2240986249375981048-1526534958
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
       globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-184106706-0
     - reference: {fileID: 0}
       sceneName: SampleScene
@@ -304,10 +300,6 @@ MonoBehaviour:
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1686056652-0
     - reference: {fileID: 0}
       sceneName: SampleScene
       scenePath: Assets/Scenes/SampleScene.unity
@@ -410,10 +402,6 @@ MonoBehaviour:
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2240986249375981048-810764567
     - reference: {fileID: 4707060900342796812, guid: 3e148959565d933498d6fbc559829f03,
         type: 2}
       sceneName: 
@@ -497,15 +485,6 @@ MonoBehaviour:
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 9120881715212491117, guid: def6afb3de9d5904499beabf1481b76c,
-        type: 3}
-      sceneName: 
-      scenePath: 
-      globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2240986249375981048-1705638428
     - reference: {fileID: 0}
       sceneName: SampleScene
       scenePath: Assets/Scenes/SampleScene.unity
@@ -532,7 +511,29 @@ MonoBehaviour:
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: AIFemaleFarmer
+    - reference: {fileID: 9120881715212491117, guid: def6afb3de9d5904499beabf1481b76c,
+        type: 3}
+      sceneName: 
       scenePath: 
-      globalObjectId: GlobalObjectId_V1-2-00000000000000000000000000000000-6330695034942047259-0
+      globalObjectId: 
+    - reference: {fileID: 0}
+      sceneName: SampleScene
+      scenePath: Assets/Scenes/SampleScene.unity
+      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2240986249375981048-1705638428
+    - reference: {fileID: 0}
+      sceneName: SampleScene
+      scenePath: Assets/Scenes/SampleScene.unity
+      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2240986249375981048-1526534958
+    - reference: {fileID: 0}
+      sceneName: SampleScene
+      scenePath: Assets/Scenes/SampleScene.unity
+      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2240986249375981048-810764567
+    - reference: {fileID: 953316748297875381, guid: 10893751b81c67c47b737b4595844b5d,
+        type: 3}
+      sceneName: 
+      scenePath: 
+      globalObjectId: 
+    - reference: {fileID: 0}
+      sceneName: SampleScene
+      scenePath: Assets/Scenes/SampleScene.unity
+      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1686056652-0
