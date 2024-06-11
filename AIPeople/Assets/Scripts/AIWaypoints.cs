@@ -21,7 +21,7 @@ public class WayPointKnot
 
 #endregion
 
-[RequireComponent(typeof(SplineComponent))]
+// [RequireComponent(typeof(SplineComponent))]
 public class AIWaypoints : MonoBehaviour
 {
     [SerializeField] private SplineContainer wayPoints;
