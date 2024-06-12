@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEngine.Splines;
 
 [CustomEditor(typeof(AIWaypoints))]
-public class AnimalWaypointsEditor : Editor
+public class AIWaypointsEditor : Editor
 {
     public override void OnInspectorGUI()
     {

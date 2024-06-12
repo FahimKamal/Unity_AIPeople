@@ -31,7 +31,7 @@ public class WorkerSupplier : MonoBehaviour
 
     private IEnumerator SpawnWorkersWithDelay(int numOfWorkers, Transform workLocation)
     {
-        for (int i = 0; i < numOfWorkers; i++)
+        for (var i = 0; i < numOfWorkers; i++)
         {
             if (workers.Count == 0 || homeLocations.Count == 0)
             {
@@ -39,11 +39,11 @@ public class WorkerSupplier : MonoBehaviour
                 yield break;
             }
 
-            int homeIndex = Random.Range(0, homeLocations.Count);
-            int workerIndex = Random.Range(0, workers.Count);
+            var homeIndex = Random.Range(0, homeLocations.Count);
+            var workerIndex = Random.Range(0, workers.Count);
 
-            Worker workerPrefab = workers[workerIndex];
-            Transform homeLocation = homeLocations[homeIndex];
+            var workerPrefab = workers[workerIndex];
+            var homeLocation = homeLocations[homeIndex];
 
             if (workerPrefab == null || homeLocation == null)
             {
@@ -51,7 +51,7 @@ public class WorkerSupplier : MonoBehaviour
                 continue;
             }
 
-            Worker workerObj = Instantiate(workerPrefab, homeLocation.position, Quaternion.identity);
+            var workerObj = Instantiate(workerPrefab, homeLocation.position, Quaternion.identity);
             workerObj.GoLocation(workLocation);
 
             yield return new WaitForSeconds(spawnDelay);
@@ -65,7 +65,7 @@ public class WorkerSupplier : MonoBehaviour
     
     private IEnumerator SpawnWorkersToHomeWithDelay(int numOfWorkers, Transform workLocation)
     {
-        for (int i = 0; i < numOfWorkers; i++)
+        for (var i = 0; i < numOfWorkers; i++)
         {
             if (workers.Count == 0 || homeLocations.Count == 0)
             {
@@ -73,11 +73,11 @@ public class WorkerSupplier : MonoBehaviour
                 yield break;
             }
 
-            int homeIndex = Random.Range(0, homeLocations.Count);
-            int workerIndex = Random.Range(0, workers.Count);
+            var homeIndex = Random.Range(0, homeLocations.Count);
+            var workerIndex = Random.Range(0, workers.Count);
 
-            Worker workerPrefab = workers[workerIndex];
-            Transform homeLocation = homeLocations[homeIndex];
+            var workerPrefab = workers[workerIndex];
+            var homeLocation = homeLocations[homeIndex];
 
             if (workerPrefab == null || workLocation == null)
             {
@@ -85,7 +85,7 @@ public class WorkerSupplier : MonoBehaviour
                 continue;
             }
 
-            Worker workerObj = Instantiate(workerPrefab, workLocation.position, Quaternion.identity);
+            var workerObj = Instantiate(workerPrefab, workLocation.position, Quaternion.identity);
             workerObj.GoLocation(homeLocation);
 
             yield return new WaitForSeconds(spawnDelay);

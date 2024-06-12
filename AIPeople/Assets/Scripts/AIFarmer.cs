@@ -10,8 +10,8 @@ public class AIFarmer : MonoBehaviour
 
     [SerializeField] private GameObject waterCan;
     
-    private WayPointKnot currentWayPoint;
-    private Vector3  currentDestination;
+    private WayPointKnot _currentWayPoint;
+    private Vector3  _currentDestination;
 
     private const string Walking = "Walking";
     private const string Watering = "Watering";
@@ -19,7 +19,7 @@ public class AIFarmer : MonoBehaviour
 
     [SerializeField] private string currentAnimName = "";
     
-    private bool isWalking;
+    private bool _isWalking;
     private void Start()
     {
         waterCan.SetActive(false);
@@ -31,17 +31,17 @@ public class AIFarmer : MonoBehaviour
         
         var destination = waypoints.GetRandomWayPoint();
         
-        if (currentWayPoint != null)
+        if (_currentWayPoint != null)
         {
-            currentWayPoint.isKnotSelected = false;
+            _currentWayPoint.isKnotSelected = false;
         }
         
-        currentWayPoint = destination.selectedWaypointKnot;
-        currentWayPoint.isKnotSelected = true;
-        currentDestination = destination.positionValue;
-        agent.SetDestination(currentDestination);
+        _currentWayPoint = destination.selectedWaypointKnot;
+        _currentWayPoint.isKnotSelected = true;
+        _currentDestination = destination.positionValue;
+        agent.SetDestination(_currentDestination);
         PlayAnimation(Walking);
-        isWalking = true;
+        _isWalking = true;
     }
 
     private void DoWatering()
@@ -59,14 +59,14 @@ public class AIFarmer : MonoBehaviour
 
     private void Update()
     {
-        if (!isWalking)
+        if (!_isWalking)
         {
             return;
         }
-        var remainingDistance = Vector3.Distance(transform.position, currentDestination);
-        if (remainingDistance < 1f && isWalking)
+        var remainingDistance = Vector3.Distance(transform.position, _currentDestination);
+        if (remainingDistance < 1f && _isWalking)
         {
-            isWalking = false;
+            _isWalking = false;
             Random.InitState(System.DateTime.Now.Millisecond);
             var choice = Random.Range(0, 2);
             if (choice == 0)

@@ -54,11 +54,6 @@ public class AIWalkState : NPCBaseState
             case AIAction.Fighting:
                 aiState.SwitchState(aiState.fightingState);
                 break;
-            case AIAction.Eat:
-            case AIAction.Sit:
-            case AIAction.GoHome:
-            case AIAction.Fishing:
-            case AIAction.WoodCutting:
             default:
                 break;
         }
