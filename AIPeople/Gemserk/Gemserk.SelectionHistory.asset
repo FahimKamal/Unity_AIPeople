@@ -306,10 +306,6 @@ MonoBehaviour:
     - reference: {fileID: 0}
       sceneName: SampleScene
       scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-639446568-0
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
       globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1874746779-0
     - reference: {fileID: -8528278227439075865, guid: e41cfc001f0818e4eb109d15b248536d,
         type: 2}
@@ -380,10 +376,6 @@ MonoBehaviour:
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4357610629555533357-837091388594771389
     - reference: {fileID: 0}
       sceneName: SampleScene
       scenePath: Assets/Scenes/SampleScene.unity
@@ -573,14 +565,6 @@ MonoBehaviour:
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 102900000, guid: 859f1e753e25b7c43aa908754a861fd2, type: 3}
-      sceneName: 
-      scenePath: 
-      globalObjectId: 
-    - reference: {fileID: 102900000, guid: c65f5e2373f3cf44fabdef0dcbfe60ff, type: 3}
-      sceneName: 
-      scenePath: 
-      globalObjectId: 
     - reference: {fileID: 102900000, guid: 00000000000000001000000000000000, type: 3}
       sceneName: 
       scenePath: 
@@ -589,3 +573,24 @@ MonoBehaviour:
       sceneName: 
       scenePath: 
       globalObjectId: 
+    - reference: {fileID: 102900000, guid: c65f5e2373f3cf44fabdef0dcbfe60ff, type: 3}
+      sceneName: 
+      scenePath: 
+      globalObjectId: 
+    - reference: {fileID: 102900000, guid: 859f1e753e25b7c43aa908754a861fd2, type: 3}
+      sceneName: 
+      scenePath: 
+      globalObjectId: 
+    - reference: {fileID: 1357144479536079315, guid: 9eeb4966afbf939419b9aea3eb7b5226,
+        type: 3}
+      sceneName: 
+      scenePath: 
+      globalObjectId: 
+    - reference: {fileID: 0}
+      sceneName: SampleScene
+      scenePath: Assets/Scenes/SampleScene.unity
+      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1357144479536079315-6454784538685103194
+    - reference: {fileID: 0}
+      sceneName: SampleScene
+      scenePath: Assets/Scenes/SampleScene.unity
+      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4357610629555533357-837091388594771389
