@@ -46,14 +46,14 @@ public class AIFarmer : MonoBehaviour
 
     private void DoWatering()
     {
-        Debug.Log("Doing watering");
+        // Debug.Log("Doing watering");
         waterCan.SetActive(true);
         PlayAnimation(Watering);
     }
     
     private void DoPlanting()
     {
-        Debug.Log("Doing planting");
+        // Debug.Log("Doing planting");
         PlayAnimation(Planting);
     }
 
