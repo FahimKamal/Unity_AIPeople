@@ -494,11 +494,23 @@ MonoBehaviour:
       sceneName: SampleScene
       scenePath: Assets/Scenes/SampleScene.unity
       globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-410087039-0
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-552857015-0
     - reference: {fileID: 11400000, guid: 6ba67e56f7179ec4986a30ca5f81fbc4, type: 2}
       sceneName: 
       scenePath: 
       globalObjectId: 
+    - reference: {fileID: 0}
+      sceneName: SampleScene
+      scenePath: Assets/Scenes/SampleScene.unity
+      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-594079451-0
+    - reference: {fileID: 0}
+      sceneName: SampleScene
+      scenePath: Assets/Scenes/SampleScene.unity
+      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2240986249375981048-1733993193171800263
+    - reference: {fileID: 0}
+      sceneName: SampleScene
+      scenePath: Assets/Scenes/SampleScene.unity
+      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-552857015-0
+    - reference: {fileID: 0}
+      sceneName: SampleScene
+      scenePath: Assets/Scenes/SampleScene.unity
+      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1357144479536079315-6454784538685103194
