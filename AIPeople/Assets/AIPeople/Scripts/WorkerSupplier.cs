@@ -1,9 +1,19 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class WorkerSupplier : MonoBehaviour
 {
+    [SerializeField] private BridgeSO BridgeSo;
+
+    [SerializeField] private GameObject theObject;
+    private void Start()
+    {
+        theObject = BridgeSo.GetGameObject;
+    }
+
     [SerializeField] private List<Worker> workers;
     [SerializeField] private List<Transform> homeLocations;
 

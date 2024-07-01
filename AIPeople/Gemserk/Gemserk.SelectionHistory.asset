@@ -19,10 +19,6 @@ MonoBehaviour:
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1006571529-0
     - reference: {fileID: 4787556767947807390, guid: 3e148959565d933498d6fbc559829f03,
         type: 2}
       sceneName: 
@@ -62,10 +58,6 @@ MonoBehaviour:
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-330585543-0
     - reference: {fileID: 919132149155446097, guid: a79957f4137b39b4d8b80ae23669f0b4,
         type: 3}
       sceneName: 
@@ -165,47 +157,15 @@ MonoBehaviour:
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4357610629555533357-625426987
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-184106706-0
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1280495265-0
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-552857015-0
     - reference: {fileID: 11500000, guid: 11a685e6ab91bc143a3f6938e5c544b1, type: 3}
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-459678150-0
     - reference: {fileID: 4357610629555533357, guid: 83a77cd28b4db894e8fb01707d779181,
         type: 3}
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1233509901-0
-    - reference: {fileID: 11400000, guid: 18dc0cd2c080841dea60987a38ce93fa, type: 2}
-      sceneName: 
-      scenePath: 
-      globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-832575517-0
     - reference: {fileID: 11400000, guid: 7b7fd9122c28c4d15b667c7040e3b3fd, type: 2}
       sceneName: 
       scenePath: 
@@ -223,18 +183,6 @@ MonoBehaviour:
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-630081357-0
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2122081371-0
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1671258157-0
     - reference: {fileID: 5086813023549713547, guid: e41cfc001f0818e4eb109d15b248536d,
         type: 2}
       sceneName: 
@@ -260,10 +208,6 @@ MonoBehaviour:
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-854591813-0
     - reference: {fileID: -8528278227439075865, guid: e41cfc001f0818e4eb109d15b248536d,
         type: 2}
       sceneName: 
@@ -284,10 +228,6 @@ MonoBehaviour:
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2466315612910689621-5065540199819079809
     - reference: {fileID: 4764859662985080496, guid: 840787243c12af64a8b15ee784313a52,
         type: 3}
       sceneName: 
@@ -298,14 +238,6 @@ MonoBehaviour:
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2240986249375981048-1705638428
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2240986249375981048-810764567
     - reference: {fileID: 953316748297875381, guid: 10893751b81c67c47b737b4595844b5d,
         type: 3}
       sceneName: 
@@ -315,14 +247,6 @@ MonoBehaviour:
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2240986249375981048-1733993193171800263
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2240986249375981048-1526534958
     - reference: {fileID: 919132149155446097, guid: 3afac197370311c4a814050cb779cfbb,
         type: 3}
       sceneName: 
@@ -431,27 +355,11 @@ MonoBehaviour:
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-356966452-0
     - reference: {fileID: 102900000, guid: 5853bf1c5200917498ecae295adc8928, type: 3}
       sceneName: 
       scenePath: 
       globalObjectId: 
     - reference: {fileID: 11500000, guid: 8029d9f48d02b7e459907417ae4224ce, type: 3}
-      sceneName: 
-      scenePath: 
-      globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1589042253-0
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4764859662985080496-5065540199819079809
-    - reference: {fileID: 102900000, guid: 709f11a7f3c4041caa4ef136ea32d874, type: 3}
       sceneName: 
       scenePath: 
       globalObjectId: 
@@ -476,10 +384,6 @@ MonoBehaviour:
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 102900000, guid: 00000000000000001000000000000000, type: 3}
-      sceneName: 
-      scenePath: 
-      globalObjectId: 
     - reference: {fileID: 102900000, guid: 859f1e753e25b7c43aa908754a861fd2, type: 3}
       sceneName: 
       scenePath: 
@@ -489,22 +393,6 @@ MonoBehaviour:
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-840700360-0
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-594079451-0
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1874746779-0
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-6330695034942047259-4288816723338155495
     - reference: {fileID: 102900000, guid: 60e2f47d97ec5ac46b11d2fe93f99678, type: 3}
       sceneName: 
       scenePath: 
@@ -534,30 +422,10 @@ MonoBehaviour:
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4357610629555533357-837091388594771389
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1357144479536079315-6454784538685103194
     - reference: {fileID: 11500000, guid: ff85d3f819868d64f9fb5d4af6707fd3, type: 3}
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-927119020-0
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1686056652-0
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-877144914-0
     - reference: {fileID: 11500000, guid: 7e96d7814cf1e9f459e3da2e57ed6d07, type: 3}
       sceneName: 
       scenePath: 
@@ -567,14 +435,6 @@ MonoBehaviour:
       sceneName: 
       scenePath: 
       globalObjectId: 
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2107410040-0
-    - reference: {fileID: 0}
-      sceneName: SampleScene
-      scenePath: Assets/Scenes/SampleScene.unity
-      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4357610629555533357-450756200
     - reference: {fileID: 9100000, guid: 3e148959565d933498d6fbc559829f03, type: 2}
       sceneName: 
       scenePath: 
@@ -591,6 +451,54 @@ MonoBehaviour:
       globalObjectId: 
     - reference: {fileID: 6066384557314601026, guid: 3e148959565d933498d6fbc559829f03,
         type: 2}
+      sceneName: 
+      scenePath: 
+      globalObjectId: 
+    - reference: {fileID: 11400000, guid: 18dc0cd2c080841dea60987a38ce93fa, type: 2}
+      sceneName: 
+      scenePath: 
+      globalObjectId: 
+    - reference: {fileID: 102900000, guid: 382e02370aea5e4498d50b70685ec546, type: 3}
+      sceneName: 
+      scenePath: 
+      globalObjectId: 
+    - reference: {fileID: 102900000, guid: 709f11a7f3c4041caa4ef136ea32d874, type: 3}
+      sceneName: 
+      scenePath: 
+      globalObjectId: 
+    - reference: {fileID: 102900000, guid: 00000000000000001000000000000000, type: 3}
+      sceneName: 
+      scenePath: 
+      globalObjectId: 
+    - reference: {fileID: 102900000, guid: a4f776197a7347a4eab18a0be1999094, type: 3}
+      sceneName: 
+      scenePath: 
+      globalObjectId: 
+    - reference: {fileID: 11500000, guid: bf7fba07924b3894b9db43a5867f314f, type: 3}
+      sceneName: 
+      scenePath: 
+      globalObjectId: 
+    - reference: {fileID: 11500000, guid: 312f44edea816ff40bb8b86e3f06b382, type: 3}
+      sceneName: 
+      scenePath: 
+      globalObjectId: 
+    - reference: {fileID: 102900000, guid: 99c9720ab356a0642a771bea13969a05, type: 3}
+      sceneName: 
+      scenePath: 
+      globalObjectId: 
+    - reference: {fileID: 0}
+      sceneName: SampleScene
+      scenePath: Assets/Scenes/SampleScene.unity
+      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-330585543-0
+    - reference: {fileID: 0}
+      sceneName: SampleScene
+      scenePath: Assets/Scenes/SampleScene.unity
+      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-410087039-0
+    - reference: {fileID: 0}
+      sceneName: SampleScene
+      scenePath: Assets/Scenes/SampleScene.unity
+      globalObjectId: GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-552857015-0
+    - reference: {fileID: 11400000, guid: 6ba67e56f7179ec4986a30ca5f81fbc4, type: 2}
       sceneName: 
       scenePath: 
       globalObjectId: 
